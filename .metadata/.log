@@ -73,3 +73,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.oomph.setup.ui 1 0 2019-09-10 23:11:51.155
 !MESSAGE Setup tasks were performed during startup. See 'C:\Users\paulk\eclipse\java-latest-released\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
+
+!ENTRY org.eclipse.jdt.launching 4 150 2019-09-11 01:40:33.908
+!MESSAGE The archive: /ECE446_acoustic_capture/lib/gnu.io.rxtx_2.1.7.4_v20071016.jar which is referenced by the classpath, does not exist.

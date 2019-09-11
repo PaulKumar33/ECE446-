@@ -1,0 +1,23 @@
+import javax.swing.*;
+
+public class MainGui {
+	//class variables
+	public static int xDimension;
+	public static int yDimension;
+	
+	
+	public MainGui(int xDim, int yDim) {
+		int xDimension = xDim;
+		int yDimension = yDim;
+	}
+	
+	public static void InitGui() {
+		JFrame frame = new JFrame("Acoustics Acquistion Gui");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setSize(xDimension, yDimension);
+		JButton button = new JButton("Press");
+		frame.getContentPane().add(button);
+		frame.setVisible(true);
+	}
+
+}
