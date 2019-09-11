@@ -1,0 +1,8 @@
+
+
+
+public class main{
+	public static void main(Stirng[] args) {
+		System.out.println("this is the main method");
+	}
+}
